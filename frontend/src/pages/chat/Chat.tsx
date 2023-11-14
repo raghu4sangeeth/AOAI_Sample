@@ -580,8 +580,8 @@ const Chat = () => {
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>I am Dante! Ask me anything consumption!</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>I am built to help CSAMs and be a Co-Pilot </h2>
+                                <h1 className={styles.chatEmptyStateTitle}>I am Dante! Ask me anything consumption.</h1>
+                                <h2 className={styles.chatEmptyStateSubtitle}>!Built to help CSAMs and CSAs! </h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px" }} role="log">
